@@ -1,0 +1,17 @@
+# --- LLM Fine-Tuning ---
+unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git
+bitsandbytes
+peft
+trl
+transformers==4.46.1
+
+# --- GPU Acceleration ---
+torch==2.5.0
+xformers
+triton
+
+# --- Data Handling ---
+datasets
+numpy==2.0.2
+pandas
+tqdm
